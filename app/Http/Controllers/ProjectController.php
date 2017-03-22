@@ -9,4 +9,6 @@ class ProjectController extends Controller
      Public function index(){
     	return view('project')->with('name' , 'Projects');
     }
+/**
+**/
 } 
